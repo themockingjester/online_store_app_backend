@@ -1,0 +1,34 @@
+{
+    "session": {
+        "signKeys": [
+            "dfgsder232ass"
+        ]
+    },
+    "application": {
+        "hashing": {
+            "algorithm": "md5",
+            "outputEncoding": "hex"
+        }
+    },
+    "database": {
+        "mysql": {
+            "connectionLimit": 50,
+            "host": "testdb.c6nj4am75tkp.ap-south-1.rds.amazonaws.com",
+            "user": "admin",
+            "password": "Test123123",
+            "port": 3306,
+            "query": {
+                "timeout": 15000
+            }
+        },
+        "firebase": {
+            "apiKey": "AIzaSyD5CrbosW0Y7TPTkRYE6AMf1H0fSGY3iJQ",
+            "authDomain": "dontpayhighdevelopment.firebaseapp.com",
+            "projectId": "dontpayhighdevelopment",
+            "storageBucket": "dontpayhighdevelopment.appspot.com",
+            "messagingSenderId": "949888216454",
+            "appId": "1:949888216454:web:d62a1095450623697bd007",
+            "measurementId": "G-QKNJ4Q9VFV"
+        }
+    }
+}
