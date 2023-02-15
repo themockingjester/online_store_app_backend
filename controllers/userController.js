@@ -2,7 +2,7 @@ const { createUser, getUserDetailsFromDb, addNewAddressForUserInDb, makeAddressD
 const { generateResponse, validateEmail, validatePassword, validateForStringInSize, validateNumber } = require('../utils/commonUtils')
 
 const addNewAccount = (req, res) => {
-    const { userName } = req.body
+    let { userName } = req.body
     if (!userName) {
         // means userName was not provided
         userName = ""
